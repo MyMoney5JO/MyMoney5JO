@@ -8,7 +8,7 @@ import pymysql
 import pytesseract as tess
 from PIL import Image
 
-form_class = uic.loadUiType("C:/Source/miniprojects/part1/database/test.ui")[0]
+form_class = uic.loadUiType("C:/Source/MyMoney5JO/database/CarRecSys.ui")[0]
 tess.pytesseract.tesseract_cmd = r'C:/Dev/Tools/Tesseract-OCR/tesseract.exe'
 
 class WindowClass(QMainWindow, form_class) :
@@ -21,6 +21,7 @@ class WindowClass(QMainWindow, form_class) :
         
         self.initDB()
         self.btn_loadFromFile.clicked.connect(self.loadImageFromFile)
+        self.setWindowIcon(QIcon('C:/Source/MyMoney5JO/database/차량인식시스템.png'))
 
     def makeTable(self, rows) :
         self.tblcarinfo.setColumnCount(5)
