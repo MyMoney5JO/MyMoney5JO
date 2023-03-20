@@ -16,7 +16,7 @@
   - Thread
 
 - 실행화면
-<img src = "https://user-images.githubusercontent.com/123913974/Opencv_Pyqt.png" width = "600"/>
+<img src = "https://raw.githubusercontent.com/MyMoney5JO/MyMoney5JO/main/Image/Opencv_Pyqt.png?token=GHSAT0AAAAAAB6CRLTGTVX6MEXBRPVSKRACZAYEAHQ" width = "600"/>
 
 - 하드웨어 포함 실행화면 
 <img src = "https://user-images.githubusercontent.com/123913974/Opencv_Pyqt2.jpg" width = "600"/>
