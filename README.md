@@ -9,3 +9,14 @@
 
 - 버튼실행화면
 <img src = "https://user-images.githubusercontent.com/123913974/225839257-2932e359-fc69-443a-b7ff-c1d9a0d02014.png" width = "600"/>
+
+
+- 라즈베리파이 
+  - OpenCV , PyQt 연동하여 실시간 영상 GUI
+  - Thread
+
+- 실행화면
+<img src = "https://user-images.githubusercontent.com/123913974/Opencv_Pyqt.png" width = "600"/>
+
+- 하드웨어 포함 실행화면 
+<img src = "https://user-images.githubusercontent.com/123913974/Opencv_Pyqt2.jpg" width = "600"/>
