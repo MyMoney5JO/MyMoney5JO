@@ -15,8 +15,8 @@
   - OpenCV , PyQt 연동하여 실시간 영상 GUI
   - Thread
 
-  - 실행화면
+- 실행화면
 <img src = "https://user-images.githubusercontent.com/123913974/Opencv_Pyqt.png" width = "600"/>
 
-  - 하드웨어 포함 실행화면 
+- 하드웨어 포함 실행화면 
 <img src = "https://user-images.githubusercontent.com/123913974/Opencv_Pyqt2.jpg" width = "600"/>
