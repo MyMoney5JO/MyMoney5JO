@@ -1,0 +1,68 @@
+﻿<mah:MetroWindow x:Class="cyTunnel01_MonitoringRoom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cyTunnel01_MonitoringRoom"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        Title="Monitoring Room" Height="450" Width="800"
+                 WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="44*"/>
+            <ColumnDefinition Width="18*"/>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="19*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="68*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="47*"/>
+            <RowDefinition Height="57*"/>
+        </Grid.RowDefinitions>
+
+
+        <!-- 메뉴바 -->
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="4" >
+            <Menu IsMainMenu="True" Foreground="PapayaWhip">
+                <MenuItem Header="도구" Margin="10, 0, 0, 0" >
+
+                </MenuItem>
+
+                <MenuItem Header="메뉴얼" >
+
+                </MenuItem>
+            </Menu>
+        </StackPanel>
+
+        <!-- 포커스드 CCTV 영역 겸 디폴트 CCTV영상 송출 그리드 -->
+        <Grid Grid.Row="1" Grid.Column="0" Grid.RowSpan="3" 
+              Background="LightSlateGray" 
+              Margin="5">
+
+        </Grid>
+        
+        <!-- 사고추정지점표시 터널지도 클로즈업 -->
+        <Grid Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" 
+              Background="LemonChiffon" >
+            
+        </Grid>
+        
+        <!-- 사고터널 위치 지도 -->
+        <!-- memo; 스크롤로 지도 확대축소 기능 -->
+        <Grid Grid.Row="3" Grid.Column="1" 
+              Background="MintCream" >
+
+        </Grid>
+        
+        <!-- CCTV1 -->
+        
+
+
+
+
+    </Grid>
+</mah:MetroWindow>
